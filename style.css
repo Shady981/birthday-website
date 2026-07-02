@@ -891,7 +891,6 @@ body{
     }
 }
 .page6{
-
     min-height:100vh;
 
     background:linear-gradient(
@@ -904,11 +903,13 @@ body{
     display:flex;
 
     justify-content:center;
-    align-items:center;
+
+    align-items:flex-start;
 
     padding:50px;
-}
 
+    overflow-y:auto;
+}
 .love-letter-container{
 
     width:100%;
